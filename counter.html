@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/import.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <title>application.html</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="images/images/logo/mylogo.png" alt="" height="30px">
+      </div>
+      <div class="menu" id="toggle-menu">
+        <h2>My counter project</h2>
+      </div>
+      <div class="buttons">
+        <!-- <button><a href="index.html">Solid</a></button> -->
+        <!-- <button><a href="hex.html">Hex</a></button> -->
+      </div>
+      <div class="toggle">
+        <label for="">
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </label>
+      </div>
+    </header>
+
+    <main>
+      <div class="counter-main">
+        <div class="card">
+          <h2 class="heading">My Counter</h2>
+          <div class="unit-display">
+            <p class="number" id="value">0</p>
+            <div class="btns">
+              <button class="btn decrease">Decrease</button>
+              <button class="btn reset">Reset</button>
+              <button class="btn increase">Increase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+  </div>
+
+<script src="js/counter.js"></script>
+<!-- <script src="js/index.js"></script> -->
+</body>
+</html>
